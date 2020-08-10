@@ -1,4 +1,4 @@
-
+require 'pry'
 def update_status
    epic_tragedy = {
       :montague => {
@@ -25,6 +25,7 @@ def update_status
   # Code your solution here:
 
     epic_tragedy[:monatague][:hero][:status] = "dead"
+    binding.pry
     epic_tragedy[:capulet][:heroine][:status] = "dead"
 
 
